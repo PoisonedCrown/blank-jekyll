@@ -1,3 +1,4 @@
 collections: 
   posts:
     output: true
+    permalink: /:collection/:name
