@@ -6,7 +6,7 @@ layout: default
 
 <ul>
 {% for post in site.posts%}
-  <a href="{{post.url}}" target="_blank">
+  <a href="{{site.baseurl}} {{ post.url }}" target="_blank">
   <li> {{ post.title }} </li>
   </a>
 {% endfor%}
