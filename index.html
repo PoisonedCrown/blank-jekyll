@@ -12,10 +12,5 @@ layout: default
 {% endfor%}
 </ul>
 
+{% capture category_name %}{{ category | first }}{% endcapture %}
 
-<ul>
-  {% for cat in site.categories %}
-  <li>{{site.categories}}</li>
-  {% endfor%}
-  
-</ul>
