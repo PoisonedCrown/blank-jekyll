@@ -1,0 +1,4 @@
+---
+layout: default
+category: things
+---
