@@ -1,3 +1,5 @@
+baseurl:"/blank-jekyll/"
+
 collections: 
   posts:
     output: true
